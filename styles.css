@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calcBody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(167, 158, 148);
+    padding-top: 15px;
+    width: 600px;
+    box-shadow: 2px 2px 2px rgb(118, 112, 104), -2px 0 2px rgb(118, 112, 104);
+
+    
+}
+
+.screenInputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.screenActions{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 66.66667px;
+    margin-right: 25px;
+    box-shadow: 2px 2px 2px rgb(118, 112, 104), -2px 0 2px rgb(118, 112, 104);
+}
+
+.screenActions button{
+    flex: 1;
+    border-radius: 4px;
+    margin: .25px;
+}
+
+.operators{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 134.3333px;
+    margin-left: 25px;
+    box-shadow: 2px 2px 2px rgb(118, 112, 104), -2px 0 2px rgb(118, 112, 104);
+}
+
+.operators button{
+    width: 66.66667px;
+    border-radius: 4px;
+    margin: .25px;
+}
+
+.operators .equals {
+    width: 134.3333px;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(188, 178, 166);
+    height: 300px;
+    width: 200px;
+    flex: 1 1 0;
+    box-shadow: 2px 2px 2px rgb(118, 112, 104), -2px 0 2px rgb(118, 112, 104);
+    
+}
+.rowOne, .rowTwo, .rowThree, .rowFour{
+    display: flex;
+    flex-direction: row;
+    flex: 1 0 0;
+}
+
+
+.numbers button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1 0;
+    font-size: 30pt;
+    border-radius: 4px;
+    margin: .25px;
+}
+
+.rowFour .zero{
+    display: flex;
+    flex-direction: row;
+    flex: 2.3 1 0;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 1px;
+    font-size: 33pt;
+    letter-spacing: 7px;
+    width: 450px;
+    height: 50px;
+    background-color: rgb(25, 89, 25);
+    color: forestgreen;
+    text-shadow: 2px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(17, 62, 17);
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgb(118, 112, 104), -2px 0 2px rgb(118, 112, 104);
+}
+
+button {
+    font-size: 28pt;
+}
+.backSpace{
+    font-size: 15pt;
+}

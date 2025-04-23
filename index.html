@@ -4,40 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <link href="./styles.css">
+    <link rel="stylesheet" href="./styles.css">
     <script src="./javasccript.js" defer></script>
 </head>
 <body>
     <div class="calcBody">
-        <div class="display"></div>
-        <div class="input">
-            <div class="sreenActions">
-                <button class="allClear">AC</button>
-                <button class="backSpace">BS</button>
-                <button class="posNeg">+/-</button>
+        <div class="display">0000000000000</div>
+        <div class="screenInputs">
+            <div class="inputs">
+                <div class="screenActions">
+                    <button class="allClear">AC</button>
+                    <button class="backSpace">BACK</button>
+                    <button class="posNeg">+/-</button>
+                </div>
+                <div class="numbers">
+                    <div class="rowOne">
+                        <button class="seven">7</button>
+                        <button class="eight">8</button>
+                        <button class="nine">9</button>
+                    </div>
+                    <div class="rowTwo">
+                        <button class="four">4</button>
+                        <button class="five">5</button>
+                        <button class="six">6</button>
+                    </div>
+                    <div class="rowThree">
+                        <button class="one">1</button>
+                        <button class="two">2</button>
+                        <button class="three">3</button>
+                    </div>
+                    <div class="rowFour">
+                        <button class="zero">0</button>
+                        <button class="decimal">.</button>
+                    </div>
+                </div>
+                <div class="operators">
+                    <button class="multiplication">*</button>
+                    <button class="division">/</button>
+                    <button class="addition">+</button>
+                    <button class="subtraction">-</button>
+                    <button class="equals">=</button>
+                </div>
             </div>
-            <div class="numbers">
-                <div class="rowOne">
-                    <button class="seven">7</button>
-                    <button class="eight">8</button>
-                    <button class="nine">9</button>
-                </div>
-                <div class="rowTwo">
-                    <button class="four">4</button>
-                    <button class="five">5</button>
-                    <button class="six">6</button>
-                </div>
-                <div class="rowThree">
-                    <button class="one">1</button>
-                    <button class="two">2</button>
-                    <button class="three">3</button>
-                </div>
-                <div class="rowFour">
-                    <button class="zero">0</button>
-                    <button class="decimal">.</button>
-                </div>
-            </div>
-            <div class="operators"></div>
         </div>
     </div>
 </body>
